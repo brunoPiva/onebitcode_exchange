@@ -1,4 +1,4 @@
-(document).ready ->
+$(document).ready ->
   $('form').submit ->
     if $('form').attr('action') == '/exchange'
       $.ajax '/exchange',
