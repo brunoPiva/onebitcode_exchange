@@ -38,6 +38,7 @@ gem 'jbuilder', '~> 2.5'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
+gem 'popper_js', '~> 1.12.3'
 gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'rest-client'
 
